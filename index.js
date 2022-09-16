@@ -35,7 +35,7 @@ function volume(){
 }
 
 function mass(){
-    const inputNumbwer = returnInput()
+    const inputNumber = returnInput()
     const converionInPound =  inputNumber * 2.204
     const conversionInKg = inputNumber / 2.204
     const string = `${inputNumber} kilos =${converionInPound.toFixed(3)} pounds | ${inputNumber} pounds = ${conversionInKg.toFixed(3)} kilos`
